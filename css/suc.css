@@ -10,13 +10,14 @@
 }
 .new .wrap .list span{
     display:inline-block;
-    color: #f55431;
+
     font-size: 18px;
     width: 165px;
     padding: 0  0 8px;
 }
  .new .wrap .list .active{
     border-bottom: 4px #fe5431 solid;
+    color: #f55431;
 }
 main{
     overflow: hidden;
