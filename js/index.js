@@ -78,7 +78,7 @@ $(function () {
             var obj = {
                 key: false,     //是否显示按钮
                 offset: 'left', //靠左还是靠右
-                jianju: 0,  //离中间内容的间距
+                jianju: 10,  //离中间内容的间距
                 width: 1000,    //中间内容的宽度
                 speed: 500,      //滚动到的顶部的事件
                 num: 100,   //滚动条滚动多少距离按钮出现
