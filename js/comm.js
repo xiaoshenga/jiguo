@@ -64,6 +64,9 @@ function res() {
             data: { name: $('.rname').val(), passworld: $('.rworld').val(), dePassworld: $('.dePassworld').val() }
         })
         alert(ret);
+        if(ret == '注册成功'){
+            location.href = 'http://localhost/jiguo/zuche.html?login';
+        }
         return false
     })
 }
